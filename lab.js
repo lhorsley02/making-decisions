@@ -7,6 +7,12 @@
 */
 
 //CODE HERE
+// let lovesCode = true
+// if(lovesCode = true) {
+//   console.log("I love to code!")
+// } else {
+//   console.log("Coding has its challenges.")
+// }
 
 // For problems 2-3 use the following lines of code:
 var amysAge = 29
@@ -21,6 +27,13 @@ var brittanisBirthYear = 1986
 */
 
 //CODE HERE
+// if(amysAge > brittanisAge) {
+//   console.log("Amy is older")
+// } else if(brittanisAge > amysAge) {
+//   console.log("Brittani is older")
+// } else if(amysAge === brittanisAge) {
+//   console.log("They are the same age.")
+// }
 
 
 ////////// PROBLEM 3 //////////
@@ -30,6 +43,11 @@ var brittanisBirthYear = 1986
 */
 
 //CODE HERE
+// if(amysBirthYear === brittanisBirthYear) {
+//   console.log("Amy and Brittani were born in the same year.")
+// } else {
+//   console.log("Amy and Brittani were not born in the same year.")
+// }
 
 
 ////////// PROBLEM 4 //////////
@@ -43,7 +61,19 @@ let rain = true
 */
 
 //CODE HERE
-
+if(temperature >= 80 && rain === true) {
+  console.log("Wear a t-shirt and take an umbrella")
+} else if(temperature > 59 && temperature < 80 && rain === true) {
+  console.log("Wear a rain jacket")
+} else if(temperature <= 60 && rain === true) {
+  console.log("Wear a jacket and carry an umbrella.")
+} else if(temperature >= 80 && rain === false) {
+  console.log("Wear a t-shirt and a ball cap.")
+} else if(temperature > 59 && temperature < 80 && rain === false) {
+  console.log("Wear a long-sleeved shirt.")
+} else if(temperature <= 60 && rain === false) {
+  console.log("Wear a sweater")
+}
 
 ////////// PROBLEM 5 //////////
 
@@ -55,7 +85,6 @@ let rain = true
 
 
 ////////// PROBLEM 6 //////////
-
 /*
   Create a for-loop that runs 10 times, logging the numbers 1 through 10. Ex, on the first iteration it would log 1, on the second iteration it would log 2.
 */
